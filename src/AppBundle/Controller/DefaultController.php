@@ -12,6 +12,7 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
+        $home = 'Where the heart is';
         return $this->render('default/index.html.twig');
     }
 }
